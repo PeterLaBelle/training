@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+   <UserDetails>
+      <profile>
+         <email>aliquip</email>
+         <familyName>proident eu</familyName>
+         <givenName>amet laborum es</givenName>
+         <jobTitle>aliquip voluptat</jobTitle>
+         <phoneNumber>exerci</phoneNumber>
+      </profile>
+   </UserDetails>
+   <hr>
+      <destinations>
+         <element>
+            <location>sunt ex voluptate</location>
+         </element>
+         <element>
+            <location>ea Excepteur </location>
+         </element>
+         <element>
+            <location>in adip</location>
+         </element>
+      </destinations>
+      <employeeID>consectetur e</employeeID>
+      <numberOfDays>45</numberOfDays>
+      <vacationEndDate>3944-06-07T22:05:36.807Z</vacationEndDate>
+      <vacationStartDate>3290-10-15T03:58:55.215Z</vacationStartDate>
+   </hr>
+</root>
