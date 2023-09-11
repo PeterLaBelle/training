@@ -9,3 +9,5 @@ In this repository you will find assets used in my Adaptive Forms training.  Thi
 - Sample data
 - Images (icons and logos)
 - PDF documents
+
+*end of readMe*
