@@ -1,4 +1,4 @@
-# training
+# Training
 ## WKND Adventures training content
 
 ### Introduction
