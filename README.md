@@ -1,5 +1,5 @@
 # training
-## H2 WKND Adventures training content
+H2 WKND Adventures training content
 
 In this repository you will find assets used in my Adaptive Forms training.  This will include:
 
