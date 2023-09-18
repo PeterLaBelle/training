@@ -1,0 +1,7 @@
+function check(){
+   var action = workflowData.getMetaDataMap().get("actionTaken","");
+
+   log.info("action " + action);
+
+   return action=="Approve";
+}
