@@ -10,7 +10,7 @@ In this repository you will find assets used in my Adaptive Forms training.  Thi
 - Images (icons and logos)
 - PDF documents
 
-- ### Instructions
-- Extract the contents of the zip file to a location on your local drive.  This will typically be inside a folder called Projects (or workspaces)
+### Instructions
+Extract the contents of the zip file to a location on your local drive.  This will typically be inside a folder called Projects (or workspaces)
 
 *end of readMe*
