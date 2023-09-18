@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:language="es"
+    jcr:mixinTypes="[mix:language]"
+    jcr:primaryType="sling:OrderedFolder"
+    sling:basename="/content/forms/af/training/rashmi/rental-agreement-form--no-sign-rashmi--/jcr:content/guideContainer/assets/dictionary">
+    <fd_Adaptive_x0020_F714171103
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Adaptive Form Header"
+        sling:message="Encabezado de formulario adaptable"/>
+    <fd_Logo
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Logo"
+        sling:message="Logotipo"/>
+    <fd_WKND_x0020_Logo
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_WKND Logo"
+        sling:message="Logotipo de WKND"/>
+    <fd__x003c_p_x003e_WKND_x0020_Ad-2004110820
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>WKND Adventures Inc&lt;/p>&#xa;"
+        sling:message="&lt;p>WKND Aventuras Inc&lt;/p>&#xa;"/>
+    <fd_Adaptive_x0020_F1281183686
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Adaptive Form Title"
+        sling:message="Título del formulario adaptable"/>
+    <fd__x003c_p_x003e_Rental_x0020_-246647747
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Rental Agreement Form&lt;/p>&#xa;"
+        sling:message="&lt;p>Formulario de contrato de alquiler&lt;/p>&#xa;"/>
+    <fd__x003c_h1_x0020_style_x003d_518528360
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;h1 style=&quot;text-align: center;&quot;>Thank you!&lt;/h1>&#xd;&#xa;&lt;p style=&quot;text-align: center;&quot;>The rental agreement has been submitted and sent to Acrobat Sign for eSignature&lt;/p>&#xd;&#xa;&lt;p style=&quot;text-align: center;&quot;>&lt;a title=&quot;Forms Portal&quot; href=&quot;/content/wf-site/us/en/wfForms.html&quot;>Return to Forms Portal&lt;/a>&lt;/p>&#xd;&#xa;"
+        sling:message="&lt;h1 style=&quot;text-align: center;&quot;>¡Gracias!&lt;/h1>&#xd;&#xa;&lt;p style=&quot;text-align: center;&quot;>El contrato de alquiler se ha enviado y enviado a Acrobat Sign para firma electrónica&lt;/p>&#xd;&#xa;&lt;p style=&quot;text-align: center;&quot;>&lt;a title=&quot;Forms Portal&quot; href=&quot;/content/wf-site/us/en/wfForms.html&quot;>Volver al portal de formularios&lt;/a>&lt;/p>&#xd;&#xa;"/>
+    <fd_Root_x0020_Panel
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Root Panel"
+        sling:message="Raíz del panel"/>
+    <fd_Start
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Start"
+        sling:message="Empezar"/>
+    <fd_Lets_x0020_creat-1833626039
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Lets create a new Rental Agreement"
+        sling:message="Permite crear un nuevo contrato de alquiler"/>
+    <fd_Agreement_x0020_2081719364
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Agreement Date"
+        sling:message="Fecha del acuerdo"/>
+    <fd_Agreement_x0020_278359881
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Agreement Date defaults to todays date"
+        sling:message="La fecha del acuerdo se establece de forma predeterminada en la fecha de hoy"/>
+    <fd_Account_x0020_Nu-1268902692
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Account Number"
+        sling:message="Número de cuenta"/>
+    <fd_Please_x0020_ent-354083564
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Please enter a valid 6 digit WKND account number"
+        sling:message="Introduzca un número de cuenta WKND válido de 6 dígitos"/>
+    <fd_Enter_x0020_a_x0020_va-975370745
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Enter a valid account number"
+        sling:message="Introduzca un número de cuenta válido"/>
+    <fd__x003c_p_x003e_Enter_x0020_a-1337776046
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter an account number for lookup&lt;/p>&#xd;&#xa;"
+        sling:message="&lt;p>Introduzca un número de cuenta para la búsqueda&lt;/p>&#xd;&#xa;"/>
+    <fd_Status
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Status"
+        sling:message="Estado"/>
+    <fd_The_x0020_curren-42925851
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_The current status of the entered account number"
+        sling:message="El estado actual del número de cuenta introducido"/>
+    <fd__x003c_p_x003e_The_x0020_cur2025057933
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>The current status of the entered account number&lt;/p>&#xd;&#xa;"
+        sling:message="&lt;p>El estado actual del número de cuenta introducido&lt;/p>&#xd;&#xa;"/>
+    <fd_Contact
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Contact"
+        sling:message="Contacto"/>
+    <fd_Contact_x0020_In891978988
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Contact Information"
+        sling:message="Información de contacto"/>
+    <fd_FirstName
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_FirstName"
+        sling:message="Nombre"/>
+    <fd_Enter_x0020_the_x0020_-668598418
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Enter the first name of the rental contact"
+        sling:message="Introduzca el nombre del contacto de alquiler"/>
+    <fd__x003c_p_x003e_First_x0020_N-95734704
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>First Name of rental contact&lt;/p>&#xd;&#xa;"
+        sling:message="&lt;p>Nombre del contacto de alquiler&lt;/p>&#xd;&#xa;"/>
+    <fd_Last_x0020_Name
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Last Name"
+        sling:message="Apellido"/>
+    <fd_Enter_x0020_the_x0020_-1323081606
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Enter the last name of the rental contact"
+        sling:message="Introduzca el apellido del contacto de alquiler"/>
+    <fd__x003c_p_x003e_Last_x0020_Na1680988069
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Last Name of rental contact&lt;br>&#xd;&#xa;&lt;/p>&#xd;&#xa;"
+        sling:message="&lt;p>Apellido del contacto de alquiler&lt;br>&#xd;&#xa;&lt;/p>&#xd;&#xa;"/>
+    <fd_Address
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Address"
+        sling:message="Dirección"/>
+    <fd_Enter_x0020_the_x0020_-1601672044
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Enter the home or work address for the renter"
+        sling:message="Introduzca la dirección de la casa o del trabajo del arrendatario"/>
+    <fd__x003c_p_x003e_Address-1168556056
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Address&lt;/p>&#xd;&#xa;"
+        sling:message="&lt;p>Dirección&lt;/p>&#xd;&#xa;"/>
+    <fd_City
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_City"
+        sling:message="Ciudad"/>
+    <fd_Enter_x0020_the_x0020_785881002
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Enter the city for the renter"
+        sling:message="Ingrese la ciudad para el inquilino"/>
+    <fd__x003c_p_x003e_Enter_x0020_n273419774
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter name of City or town&lt;/p>&#xd;&#xa;"
+        sling:message="&lt;p>Introduzca el nombre de la ciudad o pueblo&lt;/p>&#xd;&#xa;"/>
+    <fd_Country
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Country"
+        sling:message="País"/>
+    <fd_Select_x0020_a_x0020_c-1500218963
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Select a country for the renter address"
+        sling:message="Seleccione un país para la dirección del arrendatario"/>
+    <fd_Canada
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Canada"
+        sling:message="Canadá"/>
+    <fd_United_x0020_Sta-771733562
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_United States of America"
+        sling:message="Estados Unidos de América"/>
+    <fd_Mexico
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Mexico"
+        sling:message="México"/>
+    <fd__x003c_p_x003e_Select_x0020_599785467
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Select a country&lt;/p>&#xd;&#xa;"
+        sling:message="&lt;p>Seleccione un país&lt;/p>&#xd;&#xa;"/>
+    <fd_State_x0020__x0025_2F_x0020_Pr1389639472
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_State / Province"
+        sling:message="Estado / Provincia"/>
+    <fd_Select_x0020_a_x0020_S1575707845
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Select a State or Province for the renter address"
+        sling:message="Seleccione un estado o provincia para la dirección del arrendatario"/>
+    <fd__x003c_p_x003e_Select_x0020_-132179613
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Select a state or province&lt;/p>&#xd;&#xa;"
+        sling:message="&lt;p>Seleccione un estado o provincia&lt;/p>&#xd;&#xa;"/>
+    <fd_PostalZip
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_PostalZip"
+        sling:message="PostalZip"/>
+    <fd_Enter_x0020_a_x0020_Po-213759433
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Enter a Postal Code or Zip for the renter address"
+        sling:message="Introduzca un código postal o un código postal para la dirección del arrendatario"/>
+    <fd__x003c_p_x003e_Enter_x0020_a1932307315
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter a zip or postal code&lt;/p>&#xd;&#xa;"
+        sling:message="&lt;p>Introduzca un código postal&lt;/p>&#xd;&#xa;"/>
+    <fd_Phone
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Phone"
+        sling:message="Teléfono"/>
+    <fd_Please_x0020_ent1931324877
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Please enter a valid 10 digit North American phone number"
+        sling:message="Introduzca un número de teléfono válido de 10 dígitos en América del Norte"/>
+    <fd_Enter_x0020_the_x0020_1973095461
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Enter the required 10 digit phone number"
+        sling:message="Ingrese el número de teléfono requerido de 10 dígitos"/>
+    <fd__x003c_p_x003e_Phone_x0020_o-777385596
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Phone or Cell Number&lt;/p>&#xd;&#xa;"
+        sling:message="&lt;p>Número de teléfono o celular&lt;/p>&#xd;&#xa;"/>
+    <fd_EmailAddre-906611496
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_EmailAddress"
+        sling:message="EmailAddress"/>
+    <fd_Enter_x0020_the_x0020_-534886440
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Enter the required email address for the renter. "
+        sling:message="Introduzca la dirección de correo electrónico requerida para el arrendatario. "/>
+    <fd__x003c_p_x003e_Enter_x0020_t-1681987787
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Enter the email address of the renter. This will be used for electronic signatures&lt;/p>&#xd;&#xa;"
+        sling:message="&lt;p>Introduzca la dirección de correo electrónico del arrendatario. Esto se utilizará para firmas electrónicas&lt;/p>&#xd;&#xa;"/>
+    <fd_Order
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Order"
+        sling:message="Ordenar"/>
+    <fd_Rental
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Rental"
+        sling:message="Alquiler"/>
+    <fd_Rental_x0020_Inf1897753648
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Rental Information"
+        sling:message="Alquiler de información"/>
+    <fd_Rental_x0020_Tab1150141906
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Rental Table"
+        sling:message="Tabla de alquiler"/>
+    <fd_Header_x0020_Row
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Header Row"
+        sling:message="Fila de encabezado"/>
+    <fd__x003c_p_x003e_SKU_x003c__x0025_2Fp_x003e_1882432982
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>SKU&lt;/p>&#xa;"
+        sling:message="&lt;p>Sku&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Descrip-1495792553
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Description&lt;/p>&#xa;"
+        sling:message="&lt;p>Descripción&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Rate_x003c__x0025_2Fp-1647786273
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Rate&lt;/p>&#xa;"
+        sling:message="&lt;p>Tasa&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_Quantit-732903660
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>Quantity&lt;/p>&#xa;"
+        sling:message="&lt;p>Cantidad&lt;/p>&#xa;"/>
+    <fd__x003c_p_x003e_SubTota81225307
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>SubTotal&lt;/p>&#xa;"
+        sling:message="&lt;p>Subtotal&lt;/p>&#xa;"/>
+    <fd_Row_x0020_1
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Row 1"
+        sling:message="Fila 1"/>
+    <fd_SKU
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_SKU"
+        sling:message="Sku"/>
+    <fd_Descriptio-56677412
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Description"
+        sling:message="Descripción"/>
+    <fd_Rate
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Rate"
+        sling:message="Tasa"/>
+    <fd_Quantity
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Quantity"
+        sling:message="Cantidad"/>
+    <fd_Subtotal
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Subtotal"
+        sling:message="Subtotal"/>
+    <fd_Total_x0020_Rent-956115379
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Total Rental Cost"
+        sling:message="Costo total del alquiler"/>
+    <fd_Finish
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Finish"
+        sling:message="Terminar"/>
+    <fd_Please_x0020_rev-1477987597
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Please review and submit the request"
+        sling:message="Por favor, revise y envíe la solicitud"/>
+    <fd_Terms_x0020_and_x0020_-2059908966
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Terms and Conditions"
+        sling:message="Términos y Condiciones"/>
+    <fd_Terms_x0020_And_x0020_1233065146
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Terms And Conditions"
+        sling:message="Términos y Condiciones"/>
+    <fd_I_x0020_agree_x0020_to1628167156
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_I agree to the terms &amp; conditions"
+        sling:message="Acepto los términos y condiciones"/>
+    <fd__x003c_p_x003e_This_x0020_is750148688
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>This is a binding agreeement and you agree to Sign this document elecontrically.&amp;nbsp;&amp;nbsp;&lt;/p>&#xd;&#xa;"
+        sling:message="&lt;p>Este es un acuerdo vinculante y usted acepta firmar este documento de forma elecontrically.&amp;nbsp;&amp;nbsp;&lt;/p>&#xd;&#xa;"/>
+    <fd_You_x0020_must_x0020_a-1440086610
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_You must agree to the terms before the agreement can be finalized. "
+        sling:message="Debe aceptar los términos antes de que se pueda finalizar el acuerdo. "/>
+    <fd_Toolbar
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Toolbar"
+        sling:message="Barra de herramientas"/>
+    <fd_Reset
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Reset"
+        sling:message="Restablecimiento"/>
+    <fd_Save
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Save"
+        sling:message="Salvar"/>
+    <fd_Sign
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Sign"
+        sling:message="Firmar"/>
+    <fd_Back
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Back"
+        sling:message="Atrás"/>
+    <fd_Next
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Next"
+        sling:message="Próximo"/>
+    <fd_Adaptive_x0020_F666580461
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Adaptive Form Footer"
+        sling:message="Pie de página de formulario adaptable"/>
+    <fd__x003c_p_x003e__x00a9__x0020_2022_x0020_-1897997115
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_&lt;p>© 2022 WKND Adventures Inc | All rights reserved&lt;/p>&#xa;"
+        sling:message="&lt;p>© 2022 WKND Adventures Inc | Todos los derechos reservados&lt;/p>&#xa;"/>
+    <fd_Thank_x0020_you_x0020_-1692159921
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="fd_Thank you for submitting the form."
+        sling:message="Gracias por enviar el formulario."/>
+</jcr:root>
