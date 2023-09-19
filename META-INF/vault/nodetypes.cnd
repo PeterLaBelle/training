@@ -1,0 +1,141 @@
+<'sling'='http://sling.apache.org/jcr/sling/1.0'>
+<'cq'='http://www.day.com/jcr/cq/1.0'>
+<'nt'='http://www.jcp.org/jcr/nt/1.0'>
+<'granite'='http://www.adobe.com/jcr/granite/1.0'>
+<'jcr'='http://www.jcp.org/jcr/1.0'>
+<'mix'='http://www.jcp.org/jcr/mix/1.0'>
+<'rep'='internal'>
+<'dam'='http://www.day.com/dam/1.0'>
+<'oak'='http://jackrabbit.apache.org/oak/ns/1.0'>
+<'fd'='http://www.adobe.com/aemfd/fd/1.0'>
+
+[sling:Resource]
+  mixin
+  - sling:resourceType (string)
+
+[cq:ClientLibraryFolder] > sling:Folder
+  - dependencies (string) multiple
+  - categories (string) multiple
+  - embed (string) multiple
+  - channels (string) multiple
+
+[sling:Folder] > nt:folder
+  - * (undefined) multiple
+  - * (undefined)
+  + * (nt:base) = sling:Folder version
+
+[granite:InboxItem]
+  mixin
+  - assignee (string)
+  - startTime (date)
+  - endTime (date)
+  - dueTime (date)
+  - progressBeginTime (date)
+  - priority (long)
+  - rank (long)
+  - status (string)
+  - subType (string)
+  - locked (boolean)
+  - returned (boolean)
+  - allowInboxSharing (boolean)
+  - allowExplicitSharing (boolean)
+  - sharedWith (string) multiple
+
+[cq:Page] > nt:hierarchyNode
+  orderable primaryitem jcr:content
+  + jcr:content (nt:base) = nt:unstructured
+  + * (nt:base) = nt:base version
+
+[cq:Taggable]
+  mixin
+  - cq:tags (string) multiple
+
+[sling:Message]
+  mixin
+  - sling:key (string)
+  - sling:message (undefined)
+
+[sling:OrderedFolder] > sling:Folder
+  orderable
+  + * (nt:base) = sling:OrderedFolder version
+
+[cq:ReplicationStatus]
+  mixin
+  - cq:lastReplicatedBy (string) ignore
+  - cq:lastPublished (date) ignore
+  - cq:lastReplicationStatus (string) ignore
+  - cq:lastPublishedBy (string) ignore
+  - cq:lastReplicationAction (string) ignore
+  - cq:lastReplicated (date) ignore
+
+[cq:Tag] > mix:title, nt:hierarchyNode
+  orderable
+  - * (undefined) multiple
+  - * (undefined)
+  - sling:resourceType (string) = 'cq/tagging/components/tag' mandatory autocreated
+  + * (nt:base) = cq:Tag version
+
+[granite:Task] > granite:InboxItem, mix:referenceable
+  - name (string)
+  - description (string)
+  - instructions (string)
+  - taskTypeName (string)
+  - createdBy (string)
+  - lastModified (date)
+  - lastModifiedBy (string)
+  - completedBy (string)
+  - actionNames (string) multiple
+  - selectedAction (string)
+  - parentTaskId (string)
+  - contentPath (string)
+  - * (undefined)
+  - * (undefined) multiple
+  + * (granite:Task)
+  + * (nt:base)
+
+[rep:RepoAccessControllable]
+  mixin
+  + rep:repoPolicy (rep:Policy) protected ignore
+
+[dam:Asset] > nt:hierarchyNode
+  primaryitem jcr:content
+  + jcr:content (dam:AssetContent) = dam:AssetContent
+  + * (nt:base) = nt:base version
+
+[dam:AssetContent] > nt:unstructured
+  + metadata (nt:unstructured)
+  + related (nt:unstructured)
+  + renditions (nt:folder)
+
+[oak:Resource] > mix:lastModified, mix:mimeType
+  primaryitem jcr:data
+  - jcr:data (binary) mandatory
+
+[cq:PageContent] > cq:OwnerTaggable, cq:ReplicationStatus, mix:created, mix:title, nt:unstructured, sling:Resource, sling:VanityPath
+  orderable
+  - cq:lastModified (date)
+  - cq:template (string)
+  - pageTitle (string)
+  - offTime (date)
+  - hideInNav (boolean)
+  - cq:lastModifiedBy (string)
+  - onTime (date)
+  - jcr:language (string)
+  - cq:allowedTemplates (string) multiple
+  - cq:designPath (string)
+  - navTitle (string)
+
+[cq:OwnerTaggable] > cq:Taggable
+  mixin
+
+[sling:VanityPath]
+  mixin
+  - sling:vanityPath (string) multiple
+  - sling:redirect (boolean)
+  - sling:vanityOrder (long)
+  - sling:redirectStatus (long)
+
+[fd:xdp]
+  mixin
+  - fd:trusted (boolean)
+
