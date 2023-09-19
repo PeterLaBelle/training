@@ -1,0 +1,10 @@
+mvn -B archetype:generate \
+-D archetypeGroupId=com.adobe.aem \
+-D archetypeArtifactId=aem-project-archetype \ 
+-D archetypeVersion=34 \
+-D appTitle="[--- Project Title ---]" \
+-D appId="[--- App ID ---]" \
+-D groupId="com.adobe.aem.[--- App ID ---]" \
+-D aemVersion="6.5.7" \
+-D includeDispatcherConfig=n \
+-D includeForms=y

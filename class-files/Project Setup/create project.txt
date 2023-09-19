@@ -1,0 +1,20 @@
+What version of Maven is installed?
+mvn --version
+
+Verify that the adobe-public profile is active by running the following command:
+$ mvn help:effective-settings
+
+Create Project framework
+
+mvn -B archetype:generate -D archetypeGroupId=com.adobe.aem -D archetypeArtifactId=aem-project-archetype -D archetypeVersion=32 -D appTitle="we.gov forms" -D appId="wegov" -D groupId="com.adobe.wegov1234" -D artifactId="wegov1234" -D version="0.0.1-SNAPSHOT" -D aemVersion="6.5.10"
+
+optional - modify POM to include forms and samples
+
+Add project to author instance (1 or 2)
+mvn -PautoInstallPackage -Padobe-public clean install
+
+Core
+-PautoInstallBundle clean install
+
+include themes and templates option
+Add custom filters

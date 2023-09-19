@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <!-- App Content -->
+    <filter root="/apps/wkndForms"/> <!-- Custom scripts, templates, DDX files -->
+    <filter root="/content/cq:tags/forms"/> <!-- tag branch -->
+    <filter root="/conf/WKND Forms"/> <!-- cloud configurations -->
+    <!-- End of App -->
+
+    <!-- Training Content -->
+    <!-- Add your folder name to complete the path on both filters.  Example "/training/[yourfolder]" -->
+    <filter root="/content/forms/af/training/"/>
+    <filter root="/content/dam/formsanddocuments/training/"/>
+     <!-- End of Training -->
+
+    <!-- Forms Content -->
+    <filter root="/content/dam/formsanddocuments/wknd-adventures/data"/>
+    <filter root="/content/dam/formsanddocuments/wknd-adventures/templates"/>
+    <filter root="/content/dam/formsanddocuments-fdm/petestraining"/>
+    <filter root="/content/dam/formsanddocuments-fdm/wknd" /><!-- Form data model -->
+    <filter root="/content/dam/wknd"/><!-- images and logos -->
+    <!-- End of Themes -->
+
+    <!-- Themes Content -->   
+    <filter root="/content/dam/formsanddocuments-themes/wknd/wknd-light"/>
+    <filter root="/etc/clientlibs/fd/themes/wknd/wknd-light"/>
+    <!-- End of Themes -->
+    
+    <!-- Worlflow Content -->
+    <filter root="/conf/global/settings/workflow/models/petesdemo">
+    <filter root="/var/workflow/models/petesdemo"/>
+    <!-- End of WF -->
+</workspaceFilter>
