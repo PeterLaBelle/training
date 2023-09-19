@@ -1,0 +1,68 @@
+subject=Task Assigned - ${workitem_title}
+
+message=<html><body>\n\
+	<table style="width: 480px; font-family: Helvetica, Arial, sans-serif; border: 0; padding: 0; vertical-align: top; text-align: left; word-wrap: break-word; margin: 16px auto; color:#323232; background-color:#FFFCF9; border-collapse: collapse;">\n\
+		<tbody>\n\
+			<tr>\n\
+				<td style="height: 100px; width: 480px; background-color: #FFE0CB; border-top: 5pt solid black; font-family: Helvetica, Arial, sans-serif; font-weight: bold; font-size: 15px; line-height: 20px; padding: 12px; color: #707070;">\n\
+					&nbsp;Sample Company\n\
+				</td>\n\
+			</tr>\n\
+			<tr>\n\
+				<td style="font-family: Helvetica, Arial, sans-serif; height: auto; background-color: #FFFCF9; padding: 32px 16px 20px 16px; ">\n\
+					<pre style="font-size: 13px; font-family: Helvetica, Arial, sans-serif;  font-weight: normal; color: #323232;">&nbsp;Hello ${workitem_assignee},\n\
+&nbsp;The following task has been assigned to you:</pre>\n\
+				</td>\n\
+			</tr>\n\
+			<tr>\n\
+				<td style="width: 480px;">\n\
+					<table style="height: auto; width: 480px; background-color:#FFFBF9; font-family: Helvetica, Arial, sans-serif; border-collapse: collapse;">\n\
+						<tbody>\n\
+							<tr style="border-bottom: solid 2px #FFFCF9;">\n\
+								<td style="font-family: Helvetica, Arial, sans-serif; width: auto; height: auto; background-color:#FFF5EF; font-weight: bold; font-size: 11px; line-height: 20px; padding: 12px; color: #707070;">&nbsp;TITLE</td>\n\
+								<td style="font-family: Helvetica, Arial, sans-serif; background-color:#FFF5EF; text-align: left; vertical-align: middle; height: auto; font-weight: normal; font-size: 13px; line-height: 20px; padding: 10px 16px 10px 32px; color: #323232;">\n\
+									<p>${workitem_title}</p>\n\
+								</td>\n\
+							</tr>\n\
+                           	<tr style="border-bottom: solid 2px #FFFCF9;">\n\
+								<td style="font-family: Helvetica, Arial, sans-serif; width: auto; height: auto; background-color:#FFF5EF; font-weight: bold; font-size: 11px; line-height: 20px; padding: 12px; color: #707070;">&nbsp;DESCRIPTION</td>\n\
+								<td style="font-family: Helvetica, Arial, sans-serif; background-color:#FFF5EF; text-align: left; vertical-align: middle; height: auto; font-weight: normal; font-size: 13px; line-height: 20px; padding: 10px 16px 10px 32px; color: #323232;">\n\
+									<p>${workitem_description}</p>\n\
+								</td>\n\
+							</tr>\n\
+							<tr style="border-bottom: solid 2px #FFFCF9;">\n\
+								<td style="font-family: Helvetica, Arial, sans-serif; width: auto; height: auto; background-color:#FFF5EF; font-weight: bold; font-size: 11px; line-height: 20px; padding: 12px; color: #707070;">&nbsp;DUE DATE</td>\n\
+								<td style="font-family: Helvetica, Arial, sans-serif; background-color:#FFF5EF; text-align: left; vertical-align: middle; height: auto; font-weight: normal; font-size: 13px; line-height: 20px; padding: 10px 16px 10px 32px; color: #323232;">\n\
+									<p>${workitem_due_date}</p>\n\
+								</td>\n\
+							</tr>\n\
+							<tr style="border-bottom: solid 2px #FFFCF9;">\n\
+								<td style="font-family: Helvetica, Arial, sans-serif; width: auto; height: auto; background-color:#FFF5EF; font-weight: bold; font-size: 11px; line-height: 20px; padding: 12px; color: #707070;">&nbsp;PRIORITY</td>\n\
+								<td style="font-family: Helvetica, Arial, sans-serif; background-color:#FFF5EF; text-align: left; vertical-align: middle; height: auto; font-weight: normal; font-size: 13px; line-height: 20px; padding: 10px 16px 10px 32px; color: #323232;">\n\
+									<p>${workitem_priority}</p>\n\
+								</td>\n\
+							</tr>\n\
+							<tr>\n\
+								<td style="font-family: Helvetica, Arial, sans-serif; width: auto; height: auto; background-color:#FFF5EF; font-weight: bold; font-size: 11px; line-height: 20px; padding: 12px; color: #707070;">&nbsp;WORKFLOW</td>\n\
+								<td style="font-family: Helvetica, Arial, sans-serif; background-color:#FFF5EF; text-align: left; vertical-align: middle; height: auto; font-weight: normal; font-size: 13px; line-height: 20px; padding: 10px 16px 10px 32px; color: #323232;">\n\
+									<p>${workitem_workflow}</p>\n\
+								</td>\n\
+							</tr>\n\
+						</tbody>\n\
+					</table>\n\
+				</td>\n\
+			</tr>\n\
+			<tr style = "text-align: center; vertical-align: middle;">\n\
+				<td style="padding:48px 0 72px 0;">&nbsp;\n\
+					<a href="${workitem_url}" target="_blank" style="background-color: #1EBBBB; font-size: 18px; line-height: 25px; font-weight: bold; color: #FFFFFF; text-decoration: none; padding: 15px 15px 15px 15px;">Open Task</a>\n\
+				</td>\n\
+			</tr>\n\
+			<tr>\n\
+				<td style="border-top: solid 1px #EDEAE7; padding: 16px;">\n\
+					<p><span style="font-size: 12px; font-weight: normal; font-style: italic; color: #919191;">This is an automatically generated email. Please do not reply to this email.</span></p>\n\
+				</td>\n\
+			</tr>\n\
+		</tbody>\n\
+	</table>\n\
+</body>\n\
+</html>\n\

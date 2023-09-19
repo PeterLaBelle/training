@@ -1,0 +1,12 @@
+
+Example for MySQL v8
+
+Apache Sling Connection Pooled Datasource
+datasource.name="MySQL\ Datasource"
+datasource.svc.prop.name="datasource.name"
+driverClassName="com.mysql.cj.Driver"
+url="jdbc:mysql://localhost:3306/mydb"
+username="root"
+password="password_sample"
+defaultTransactionIsolation="Default"
+validationQuery="SELECT\ 1"
