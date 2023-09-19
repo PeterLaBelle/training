@@ -1,0 +1,8 @@
+<DDX xmlns="http://ns.adobe.com/DDX/1.0/">
+  <PDF result="result">
+    <PDF source="sourcePDF1"/>
+    <PDF source="sourcePDF2"/>
+  </PDF>
+  <?ddx-source-hint name="sourcePDF1"?>
+  <?ddx-source-hint name="sourcePDF2"?>
+</DDX>
